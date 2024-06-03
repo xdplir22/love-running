@@ -1,0 +1,19 @@
+/* Asterik wildcard selector to overide default styles added by the browser */
+*{
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Header Style*/
+header{
+    background-color: lightcoral;
+}
+/*Main Style*/
+main{
+    background-color: lightblue;
+}
+/*Footer Style*/
+footer{
+    background-color: orange;
+}
