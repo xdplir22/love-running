@@ -41,6 +41,11 @@ header a{
     color: inherit;
 }
 
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
 
 #menu{
     font-size: 110%;
@@ -122,6 +127,28 @@ main{
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+/* Reasons section */
+#reasons{
+    width: 90%;
+    margin: 20px auto;  
+}
+
+#reasons h2{
+    margin-bottom: 20px;
+    font-size: 280%;
+    text-align: center;
+
+}
+
+#benefits-physical>div, #benefits-mental>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
 }
 
 /* Media query: tablets and larger (768px and up)*/
