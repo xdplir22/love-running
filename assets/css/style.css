@@ -99,7 +99,7 @@ nav {
 }
 /* Signup radio style */
 .radio-buttons{
-    width: 100px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
