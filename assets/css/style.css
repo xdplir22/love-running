@@ -86,12 +86,41 @@ nav {
 .nav-toggle-label{
     font-size: 2rem;
 }
-
+/* Signup text-input style */
+.text-input{
+    background: transparent;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    width: 100%;
+    height: 25px;
+    padding: 0 5px;
+    margin: 5px 0 20px 0;
+}
+/* Signup radio style */
+.radio-buttons{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+/* Signup join style */
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #454b1b;
+    color: #fafafa;
+}
 /*Main Style*/
 main{
     /* Make main element take up any surplus space and push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
+    display: flex;
+    flex-direction: column;
+    
+    
 }
 
 /* Hero section*/
@@ -100,6 +129,25 @@ main{
     width: 100%;
     background:url("../images/hero-image.webp") no-repeat center center/cover ;
     position: relative;
+}
+
+#signup{
+    background: url(../images/signup-image.webp);
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#signup-form{
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+#signup-form>h2{
+    color: #fafafa;
+    margin-bottom: 20px;
 }
 
 #cover-text{
@@ -274,6 +322,26 @@ main{
     /* Gallery*/
     #photos {
         column-count: 3;
+    }
+
+    /* Signup*/
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
+    }
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+    
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
     }
 }
 
