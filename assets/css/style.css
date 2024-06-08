@@ -155,6 +155,16 @@ main{
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
+    /* Make the square image into circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-width: 300px;
+}
+
+#benefits-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Media query: tablets and larger (768px and up)*/
